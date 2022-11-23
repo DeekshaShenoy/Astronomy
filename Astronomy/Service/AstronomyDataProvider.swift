@@ -19,16 +19,12 @@ class AstronomyDataProvider {
         provider.load(service: .getAstronomyDetail) { result in
             switch result {
             case .success(let responseData):
-                let json = self.nsdataToJSON(data: responseData)
-                print("decoder JSON Response", json)
-
                 let decoderResponse = self.decodeAstronomyResponse(data: responseData)
-                print("decoderResponse", decoderResponse)
                 completionHandler(decoderResponse.0, decoderResponse.1)
             case .failure(let error):
-                print(error.localizedDescription)
+                completionHandler(nil, error)
             case .empty:
-                print("No data")
+                completionHandler(nil, nil)
             }
         }
     }

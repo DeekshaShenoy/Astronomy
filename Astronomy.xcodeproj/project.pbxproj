@@ -21,14 +21,12 @@
 		B5A1011C292DEAD600663332 /* AstronomyServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A1011B292DEAD600663332 /* AstronomyServiceProvider.swift */; };
 		B5A1011E292DEB1D00663332 /* ServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A1011D292DEB1D00663332 /* ServiceProvider.swift */; };
 		B5A10121292DEF8D00663332 /* AstronomyDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A10120292DEF8D00663332 /* AstronomyDataProvider.swift */; };
-		B5A10124292DF82B00663332 /* Astronomy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B5A10122292DF82B00663332 /* Astronomy.xcdatamodeld */; };
-		B5A1012F292E01FE00663332 /* AstronomyData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A1012D292E01FE00663332 /* AstronomyData+CoreDataClass.swift */; };
-		B5A10130292E01FE00663332 /* AstronomyData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A1012E292E01FE00663332 /* AstronomyData+CoreDataProperties.swift */; };
-		B5A10133292E02A200663332 /* CoreDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A10132292E02A200663332 /* CoreDataHandler.swift */; };
 		B5A10135292E150D00663332 /* AstronomyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A10134292E150C00663332 /* AstronomyViewModel.swift */; };
 		B5A10139292E160A00663332 /* StoryboardInstantiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A10138292E160A00663332 /* StoryboardInstantiable.swift */; };
 		B5A1013B292E17DB00663332 /* UIViewController+AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A1013A292E17DB00663332 /* UIViewController+AlertView.swift */; };
-		B5A1013F292E1CCA00663332 /* AstronomyDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A1013E292E1CCA00663332 /* AstronomyDataHandler.swift */; };
+		B5A10143292E2B5100663332 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A10142292E2B5100663332 /* UIImageView+Extension.swift */; };
+		B5A10147292E34DA00663332 /* UserDefaults+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A10146292E34DA00663332 /* UserDefaults+Extension.swift */; };
+		B5A10149292E3D0400663332 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A10148292E3D0400663332 /* Reachability.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,14 +65,12 @@
 		B5A1011B292DEAD600663332 /* AstronomyServiceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronomyServiceProvider.swift; sourceTree = "<group>"; };
 		B5A1011D292DEB1D00663332 /* ServiceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceProvider.swift; sourceTree = "<group>"; };
 		B5A10120292DEF8D00663332 /* AstronomyDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronomyDataProvider.swift; sourceTree = "<group>"; };
-		B5A10123292DF82B00663332 /* Astronomy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Astronomy.xcdatamodel; sourceTree = "<group>"; };
-		B5A1012D292E01FE00663332 /* AstronomyData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AstronomyData+CoreDataClass.swift"; sourceTree = "<group>"; };
-		B5A1012E292E01FE00663332 /* AstronomyData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AstronomyData+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		B5A10132292E02A200663332 /* CoreDataHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHandler.swift; sourceTree = "<group>"; };
 		B5A10134292E150C00663332 /* AstronomyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronomyViewModel.swift; sourceTree = "<group>"; };
 		B5A10138292E160A00663332 /* StoryboardInstantiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardInstantiable.swift; sourceTree = "<group>"; };
 		B5A1013A292E17DB00663332 /* UIViewController+AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+AlertView.swift"; sourceTree = "<group>"; };
-		B5A1013E292E1CCA00663332 /* AstronomyDataHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronomyDataHandler.swift; sourceTree = "<group>"; };
+		B5A10142292E2B5100663332 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		B5A10146292E34DA00663332 /* UserDefaults+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extension.swift"; sourceTree = "<group>"; };
+		B5A10148292E3D0400663332 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +128,7 @@
 				B5A10111292DE96600663332 /* Views */,
 				B5A10112292DE97000663332 /* ViewModel */,
 				B5A10120292DEF8D00663332 /* AstronomyDataProvider.swift */,
+				B5A1011B292DEAD600663332 /* AstronomyServiceProvider.swift */,
 				B5A10136292E15DD00663332 /* Common */,
 				B5A10115292DE9A900663332 /* Resources */,
 				B5A100EF292DE7BB00663332 /* Info.plist */,
@@ -169,7 +166,6 @@
 			isa = PBXGroup;
 			children = (
 				B5A10134292E150C00663332 /* AstronomyViewModel.swift */,
-				B5A1013E292E1CCA00663332 /* AstronomyDataHandler.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -178,8 +174,6 @@
 			isa = PBXGroup;
 			children = (
 				B5A10119292DEA6300663332 /* AstronomyResponse.swift */,
-				B5A1012D292E01FE00663332 /* AstronomyData+CoreDataClass.swift */,
-				B5A1012E292E01FE00663332 /* AstronomyData+CoreDataProperties.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -195,28 +189,19 @@
 		B5A10116292DE9D400663332 /* NetworkLayer */ = {
 			isa = PBXGroup;
 			children = (
-				B5A1011B292DEAD600663332 /* AstronomyServiceProvider.swift */,
 				B5A10117292DEA2A00663332 /* ServiceLayer.swift */,
 				B5A1011D292DEB1D00663332 /* ServiceProvider.swift */,
+				B5A10148292E3D0400663332 /* Reachability.swift */,
 			);
 			path = NetworkLayer;
-			sourceTree = "<group>";
-		};
-		B5A10131292E028C00663332 /* CoreData */ = {
-			isa = PBXGroup;
-			children = (
-				B5A10122292DF82B00663332 /* Astronomy.xcdatamodeld */,
-				B5A10132292E02A200663332 /* CoreDataHandler.swift */,
-			);
-			path = CoreData;
 			sourceTree = "<group>";
 		};
 		B5A10136292E15DD00663332 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				B5A10144292E34B800663332 /* Extensions */,
 				B5A10137292E15F100663332 /* Components */,
 				B5A10116292DE9D400663332 /* NetworkLayer */,
-				B5A10131292E028C00663332 /* CoreData */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -225,9 +210,18 @@
 			isa = PBXGroup;
 			children = (
 				B5A10138292E160A00663332 /* StoryboardInstantiable.swift */,
-				B5A1013A292E17DB00663332 /* UIViewController+AlertView.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		B5A10144292E34B800663332 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B5A1013A292E17DB00663332 /* UIViewController+AlertView.swift */,
+				B5A10142292E2B5100663332 /* UIImageView+Extension.swift */,
+				B5A10146292E34DA00663332 /* UserDefaults+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -361,22 +355,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5A1012F292E01FE00663332 /* AstronomyData+CoreDataClass.swift in Sources */,
+				B5A10149292E3D0400663332 /* Reachability.swift in Sources */,
 				B5A10135292E150D00663332 /* AstronomyViewModel.swift in Sources */,
 				B5A1013B292E17DB00663332 /* UIViewController+AlertView.swift in Sources */,
-				B5A10133292E02A200663332 /* CoreDataHandler.swift in Sources */,
 				B5A10118292DEA2A00663332 /* ServiceLayer.swift in Sources */,
 				B5A10139292E160A00663332 /* StoryboardInstantiable.swift in Sources */,
 				B5A1011A292DEA6300663332 /* AstronomyResponse.swift in Sources */,
 				B5A100E6292DE7B400663332 /* ViewController.swift in Sources */,
 				B5A1011C292DEAD600663332 /* AstronomyServiceProvider.swift in Sources */,
-				B5A1013F292E1CCA00663332 /* AstronomyDataHandler.swift in Sources */,
 				B5A100E2292DE7B400663332 /* AppDelegate.swift in Sources */,
 				B5A1011E292DEB1D00663332 /* ServiceProvider.swift in Sources */,
-				B5A10124292DF82B00663332 /* Astronomy.xcdatamodeld in Sources */,
 				B5A100E4292DE7B400663332 /* SceneDelegate.swift in Sources */,
 				B5A10121292DEF8D00663332 /* AstronomyDataProvider.swift in Sources */,
-				B5A10130292E01FE00663332 /* AstronomyData+CoreDataProperties.swift in Sources */,
+				B5A10143292E2B5100663332 /* UIImageView+Extension.swift in Sources */,
+				B5A10147292E34DA00663332 /* UserDefaults+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -714,19 +706,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		B5A10122292DF82B00663332 /* Astronomy.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				B5A10123292DF82B00663332 /* Astronomy.xcdatamodel */,
-			);
-			currentVersion = B5A10123292DF82B00663332 /* Astronomy.xcdatamodel */;
-			path = Astronomy.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = B5A100D6292DE7B400663332 /* Project object */;
 }

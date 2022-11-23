@@ -7,8 +7,9 @@
 
 import Foundation
 
-struct AstronomyResponse: Decodable {
+struct AstronomyResponse: Codable {
+    var date: String?
+    var explanation: String?
     var title: String?
-    var description: String?
-    var imageUrl: String?
+    var url: String?
 }
