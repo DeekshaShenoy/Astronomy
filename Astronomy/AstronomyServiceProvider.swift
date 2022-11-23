@@ -23,7 +23,7 @@ extension AstronomyServiceProvider: Service {
     
     var parameters: [String: Any]? {
         // default params
-        return ["api_key": "443"]
+        return ["api_key": "xJGeFckY5OiWtvbgbqLgfG2AJL2JaSg8sKwMxz7Q"]
     }
     
     var method: ServiceMethod {
